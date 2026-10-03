@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="app-container">
+        <div class="main">
+            <input type="color"  id="colour" value="#ff0000" />
+
+            <select id="mode-selector" class="mode-selector">
+                <option value="monochrome">Monochrome</option>
+                <option value="monochrome-dark">Monochrome-dark</option>
+                <option value="monochrome-light">Monochrome-light</option>
+                <option value="analogic">Analogic</option>
+                <option value="complement">Complement</option>
+                <option value="analogic-complement">Analogic-complement</option>
+                <option value="triad">Triad</option>
+            </select>
+
+            <button class="get-scheme-btn">Get color scheme</button>
+        </div>
+        <div id="color-container" class="color-container">
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
